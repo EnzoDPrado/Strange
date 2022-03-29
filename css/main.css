@@ -1,0 +1,57 @@
+main{
+    background-color: tomato;
+    flex-grow: 1;
+    display:flex;
+
+}
+
+.content-container{
+    background-color: aquamarine;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px;
+}
+
+.content-container h1{
+    display: flex;
+    flex-direction: column;
+    font-size: 8rem;
+    font-family: 'Mulish', sans-serif;
+    line-height: 5rem;
+}
+
+.movie-title{
+    font-size: 3rem;
+    color:var(--accent-color);
+}
+
+.movie-text{
+width: 600px;
+font-size: 1.1rem;
+}
+
+.content-container span{
+    font-size:2.5rem;
+    font-weight: 200;
+}
+
+.button{
+    height: 80px;
+    width: 300px;
+    background-color: var(--accent-color);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    font-size:1.5rem;
+    font-weight: 100;
+}
+
+
+.social-container{
+    background-color: aqua;
+    width: 48px;
+}

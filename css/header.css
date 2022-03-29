@@ -1,0 +1,30 @@
+header{
+    height: 128px;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.link-container{
+    height: 36px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.link-container a{
+    text-shadow: 2px 2px 2px #000;
+    color: white;
+    padding: 8px 5px;
+    transition: all 0.5s;
+    font-family: 'Mu', sans-serif;
+    
+}
+
+
+.link-container a:hover{
+    background-color:var(--accent-color);
+}
