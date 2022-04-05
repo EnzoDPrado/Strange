@@ -86,3 +86,30 @@ main{
 .social-container i{
     font-size: 1.5rem;
 }
+
+@media (max-width:768px){
+
+    .movie-text{
+        display:none;
+    }
+
+    .social-container{
+        display: none;
+    }
+
+    .content-container{
+        gap:80px;
+        justify-content: flex-end;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .content-container h1{
+        font-size: 4rem;
+        line-height: 2.5rem;
+    }
+
+    .movie-title{
+        font-size: 1.5rem;
+    }
+}

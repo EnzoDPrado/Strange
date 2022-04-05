@@ -1,0 +1,15 @@
+.Inicio{
+    display: flex;
+    flex-direction: column;
+    padding-top: 44px;
+}
+
+.Inicio h1{
+    color: white;
+    
+}
+
+.persons-content ul{
+    display: flex;
+    gap: 60px;
+}
