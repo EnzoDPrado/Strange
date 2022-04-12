@@ -84,10 +84,26 @@ main{
 }
 
 .social-container i{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    
+    
 }
 
 @media (max-width:768px){
+
+    .main-content-container .movie-text{
+        display: none;
+    }
+
+    .social-container, .icons-container{
+        display: none;
+    }
+
+    .button{
+        width: auto;
+        padding:25px 40px;
+        margin:36px auto 100px auto;
+    }
 
     .movie-text{
         display:none;
@@ -97,19 +113,26 @@ main{
         display: none;
     }
 
-    .content-container{
-        gap:80px;
+    .main-content-container{
+        gap: 30px;
         justify-content: flex-end;
+    }
+
+    .content-container{
         align-items: center;
         justify-content: flex-end;
     }
 
     .content-container h1{
         font-size: 4rem;
-        line-height: 2.5rem;
+        line-height: 2.4rem;
     }
 
-    .movie-title{
+    .content-container span{
         font-size: 1.5rem;
     }
+
+
+
+    
 }
