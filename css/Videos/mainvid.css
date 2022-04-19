@@ -1,0 +1,39 @@
+
+
+.inicio{
+    padding-top: 44px;
+    display: flex;
+    justify-content: center;
+}
+
+.inicio h1{
+    color: #fff;
+    font-family: 'Mulish', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    border-bottom: 3px solid red;
+    width: 20vw;
+}
+
+.icons-container{
+    display: flex;
+    gap: 100px;
+    padding-top: 47px;
+    justify-content: center;
+}
+
+.trailer2 img{
+    height: 287px;
+    width: 542px;
+
+}
+
+.trailer1 h2, .trailer2 h2{
+    display: flex;
+    justify-content: center;
+    color: var(--accent-color);
+    font-size: 40px;
+    padding-top: 47px;
+    font-family: 'Mulish', sans-serif;
+    font-style: italic;
+}

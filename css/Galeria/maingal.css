@@ -1,0 +1,32 @@
+
+
+.inicio{
+    padding-top: 44px;
+}
+
+.inicio h1{
+    color: #fff;
+    font-family: 'Mulish', sans-serif;
+    font-size: 40px;
+}
+
+.linha{
+    width: 1440px;
+
+}
+
+
+.galeria-content{
+    width: 1234px;
+    height: 624px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.galeria-content img{
+    padding: 0 7px;
+}
